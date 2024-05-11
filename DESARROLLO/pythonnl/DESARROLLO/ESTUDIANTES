@@ -1,0 +1,125 @@
+#un grupo de estudiantes presentan un examen de algoritmia. hacer un algoritmo que lea por cada estudiante la calificacion obtenida.Al finalizar calcule e imprima: 1 la cantidad de estuiantes que obtuvueron una calificasion menor a 50. 2 la cantidad de estudiantes que obtuvieron una calificacion de 50 o mas pero menor que 70. 3 la cantidad de estudiantes que obtuvieron una calificasion de 70 o mas pero menor que 80. 4 la cantidad de estudiantes que obtuvieron una calificasion de 80 o mas. la calificacion obtenida en el examen de algoritmia debe ser entre 1 y 100
+bajo_50 = 0
+regular_50_70 = 0
+bueno_70_80 = 0
+exelente_80 = 0
+
+calificacionA = int(input("ingrese la calificacion del estudiante 1 "))
+calificacionB = int(input("ingrese la calificacion del estuiante 2 "))
+calificacionC = int(input("ingrese la calificacion del estudiante 3 "))
+calificacionD = int(input("ingrese la calificacion del estudiante 4 "))
+calificacionE = int(input("ingrese la calificacion del estudiante 5 "))
+calificacionF = int(input("ingrese la calificacion del estudiante 6 "))
+calificacionG = int(input("ingrese la calificacion del estudiante 7 "))
+calificacionH = int(input("ingrese la calificacion del estudiante 8 "))
+calificacionI = int(input("ingrese la calificacion del estudiante 9 "))
+calificacionJ = int(input("ingrese la calificacion del estudiante 10 "))
+
+#calificacion A
+if calificacionA > 80:
+    exelente_80 += 1
+elif calificacionA > 70 and calificacionA < 80:
+    bueno_70_80 += 1
+elif calificacionA > 50 and calificacionA < 70:
+    regular_50_70 += 1 
+elif calificacionA < 50:
+    bajo_50 += 1 
+    
+#calificcion B
+if calificacionB > 80:
+    exelente_80 += 1
+elif calificacionB > 70 and calificacionB < 80:
+    bueno_70_80 += 1
+elif calificacionB > 50 and calificacionB < 70:
+    regular_50_70 += 1 
+elif calificacionB < 50:
+    bajo_50 += 1 
+    
+#calificacion C
+if calificacionC > 80:
+    exelente_80 += 1
+elif calificacionC > 70 and calificacionC < 80:
+    bueno_70_80 += 1 
+elif calificacionC > 50 and calificacionC < 70:
+    regular_50_70 += 1
+elif calificacionC < 50:
+    bajo_50 += 1 
+    
+#calificacion D 
+if calificacionD > 80:
+    exelente_80 += 1 
+elif calificacionD > 70 and calificacionD < 80:
+    bueno_70_80 += 1 
+elif calificacionD > 50 and calificacionD < 70:
+    regular_50_70 += 1 
+elif calificacionD < 50:
+    bajo_50 += 1 
+    
+#calificacion E 
+if calificacionE > 80:
+    exelente_80 += 1 
+elif calificacionE > 70 and calificacionE < 80:
+    bueno_70_80 += 1 
+elif calificacionE > 50 and calificacionE < 70:
+    regular_50_70 += 1 
+elif calificacionE < 50:
+    bajo_50 += 1 
+    
+#calificacion F 
+if calificacionF > 80:
+    exelente_80 += 1 
+elif calificacionF > 70 and calificacionF < 80:
+    bueno_70_80 += 1 
+elif calificacionF > 50 and calificacionF < 70:
+    regular_50_70 += 1 
+elif calificacionF < 50:
+    bajo_50 += 1 
+    
+#calificacion G
+if calificacionG > 80:
+    exelente_80 += 1 
+elif calificacionG > 70 and calificacionG < 80:
+    bueno_70_80 += 1 
+elif calificacionG > 50 and calificacionG < 70:
+    regular_50_70 += 1 
+elif calificacionG < 50:
+    bajo_50 += 1 
+    
+#calificacion H
+if calificacionH > 80:
+    exelente_80 += 1
+elif calificacionH > 70 and calificacionH < 80:
+    bueno_70_80 += 1 
+elif calificacionH > 50 and calificacionH < 70:
+    regular_50_70 += 1 
+elif calificacionH < 50:
+    bajo_50 += 1
+    
+#calificacion I
+if calificacionI > 80:
+    exelente_80 += 1 
+elif calificacionI > 70 and calificacionI < 80:
+    bueno_70_80 += 1 
+elif calificacionI > 50 and calificacionI < 70:
+    regular_50_70 += 1 
+elif calificacionI < 50:
+    bajo_50 += 1 
+    
+# calificacion J
+if calificacionJ > 80:
+    exelente_80 += 1 
+elif calificacionJ > 70 and calificacionJ < 80:
+    bueno_70_80 += 1 
+elif calificacionJ > 50 and calificacionJ < 80:
+    regular_50_70 += 1 
+elif calificacionJ < 50:
+    bajo_50 += 1 
+    
+    print(bajo_50)
+    print(regular_50_70)
+    print(bueno_70_80)
+    print(exelente_80)
+    
+    
+    
+    
