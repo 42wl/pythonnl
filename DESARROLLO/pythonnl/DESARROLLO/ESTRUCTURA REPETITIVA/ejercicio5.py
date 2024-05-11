@@ -8,12 +8,12 @@ ancianos=60
 pesoniño=0
 pesojoven=0
 pesoadulto=0
-pesoancianos=0
+pesoanciano=0
 
 cantidadniño=0
 cantidadjoven=0
 cantidadadulto=0
-cantidadancianos=0
+cantidadanciano=0
 
 for i in range(50):
     edad=int(input("ingrese la edad"))
@@ -28,18 +28,15 @@ elif 30<= edad<=59:
     pesoadulto+=peso
     cantidadadulto+=1
 else:
-    pesoancianos+=peso
-    cantidadancianos+=1
+    pesoanciano+=peso
+    cantidadanciano+=1
     
 promedioniño=pesoniño/cantidadniño if cantidadniño> 0 else 0 
 promediojoven=pesojoven/cantidadjoven if cantidadjoven> 0 else 0 
 promedioadulto=pesoadulto/cantidadadulto if cantidadadulto> 0 else 0 
-promedioancianos=pesoancianos/cantidadancianos if cantidadancianos> 0 else 0
+promedioanciano=pesoanciano/cantidadanciano if cantidadanciano> 0 else 0
 
 print("promedio de peso de niño:",promedioniño)
 print("promedio de peso de joven:",promediojoven)
 print("promedio de peso adulto:",promedioadulto)
-print("promedio de peso ancianos:",promedioancianos)    
-    
-    
-    
+print("promedio de peso ancianos:",promedioanciano)    

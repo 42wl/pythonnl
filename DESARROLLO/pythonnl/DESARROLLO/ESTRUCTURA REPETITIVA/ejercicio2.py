@@ -7,4 +7,3 @@ for i in range(1,11):
         suma = suma + num 
         print("imprimir los numero positivos son:", num)
         print("el total de la suma es:", suma)
-        

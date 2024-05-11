@@ -42,5 +42,4 @@ print("la cantidad de autos con calcomania rosa:",rosa)
 print("la cantidad de autos con calcomania roja:",roja)
 print("la cantidad de autos con calcomania verde:",verde)
 print("la cantidad de autos con calcomania azul:",azul)
-
   
